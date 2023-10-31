@@ -104,7 +104,7 @@ func seriesLengthTest(sequence []int) bool {
 			if count < 223 || count > 402 {
 				return false
 			}
-		case 5:
+		default:
 			if count < 90 || count > 223 {
 				return false
 			}
