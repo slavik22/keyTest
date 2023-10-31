@@ -126,7 +126,7 @@ func generateRandomSequence(length int) []int {
 }
 
 func main() {
-	sequenceLength := 20000 // Adjust the length as needed
+	sequenceLength := 20000
 	randomSequence := generateRandomSequence(sequenceLength)
 
 	fmt.Printf("Monobit: %v\n", monobitTest(randomSequence))
